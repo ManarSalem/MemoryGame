@@ -31,7 +31,7 @@ addCards(icons);
 //function addCards() will add the cards onto html file
 function addCards(listOfIcons)
 {
-  //  shuffle(listOfIcons);
+   shuffle(listOfIcons);
     cardBox =document.querySelector('.deck');
     for(let i=0;i<listOfIcons.length;i++)
     {
