@@ -1,6 +1,6 @@
 # Memory Game
 
-Memory Game is a complete browser-based card matching game. If you want to play, [click here](https://manarsalem.github.io/MemoryGame/).
+Memory Game is a complete browser-based card matching game (also known as Concentration). But this isn’t just any memory game! It’s a shnazzy, well-designed, feature-packed memory game!
 
 
 
