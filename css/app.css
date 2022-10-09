@@ -68,27 +68,21 @@ h1 {
 }
 
 .deck .card.open {
-    transform: rotateY(0);
-   /* background: #02b3e4;*/
+    
     background-color: pink;
     cursor: default;
-}
-
-.deck .card.show {
     font-size: 33px;
 }
+
 
 .deck .card.match {
     cursor: default;
-    /*background: #02ccba;*/
     background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
     pointer-events: none;
     font-size: 33px;
-}
-.deck .card.disable
-{
     pointer-events: none;
 }
+
 
 /*
  * Styles for the Score Panel
@@ -149,7 +143,7 @@ h1 {
     
 }
 
-h2
+.popup-window .content h2
 {
     color:gold;
 }

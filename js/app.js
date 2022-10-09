@@ -27,11 +27,12 @@ function shuffle(array) {
 
 let firstclick=true;
 let cardBox=null;
+
 addCards(icons);
 //function addCards() will add the cards onto html file
 function addCards(listOfIcons)
 {
-   shuffle(listOfIcons);
+    shuffle(listOfIcons);
     cardBox =document.querySelector('.deck');
     for(let i=0;i<listOfIcons.length;i++)
     {
@@ -68,7 +69,7 @@ function whenClick(card)
             
             movmentCounter();
             prev=fllipedCrads[0];
-            card.classList.add('show','open','diable');
+            card.classList.add('open');
             fllipedCrads.push(current);//now it hold 2 cards
             if(current.innerHTML===prev.innerHTML)
             {//if the cards are the same
@@ -82,15 +83,15 @@ function whenClick(card)
                 setTimeout(function()
                      {
                          //we need to delay to make the user watch what behind the cerd and save it
-                     current.classList.remove('open','show','disable');
-                     prev.classList.remove('open','show','disable');
+                     current.classList.remove('open');
+                     prev.classList.remove('open');
                      },300);
                     
                      fllipedCrads=[];
             }
         }else 
         { 
-            card.classList.add('open','show','disable');
+            card.classList.add('open');
             fllipedCrads.push(current);
 
         }
@@ -255,9 +256,9 @@ function popUp()
      });
 
 
-}
+    }
     
 
 
 
-  
+
